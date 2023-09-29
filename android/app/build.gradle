@@ -41,6 +41,7 @@ android {
     }
 
     defaultConfig {
+        manifestPlaceholders = [applicationName: "android.app.Application"]
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
         applicationId "vanier.college.app_dev2_project"
         // You can update the following values to match your application needs.
